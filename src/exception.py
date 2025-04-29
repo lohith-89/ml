@@ -3,20 +3,7 @@ import logging
 import os
 from datetime import datetime
 
-# Create logs directory if it doesn't exist
-LOG_FILE = f"{datetime.now().strftime('%m_%d_%y_%H_%M_%S')}.log"
-logs_path = os.path.join(os.getcwd(), "logs")
-os.makedirs(logs_path, exist_ok=True)
-
-LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE)
-
-# Configuring the logging
-logging.basicConfig(
-    filename=LOG_FILE_PATH,
-    format="[ %(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
-    level=logging.INFO,
-)
-
+from src.logger import logging
 def error_message_detail(error, error_detail: sys):
     _, _, exc_tb = error_detail.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
