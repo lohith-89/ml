@@ -1,4 +1,3 @@
-````markdown
 # 🎯 Student Exam Performance Predictor
 
 A Flask-based machine learning web application that predicts student math scores using demographic features and test scores. This project demonstrates end-to-end ML deployment, user input handling, data transformation, and prediction logic.
@@ -40,7 +39,7 @@ A Flask-based machine learning web application that predicts student math scores
 ```bash
 git clone https://github.com/lohith-89/ml.git
 cd ml
-````
+```
 
 ### 2. Create a Virtual Environment
 
@@ -62,8 +61,8 @@ pip install -r requirements.txt
 
 Ensure the following files are in the `artifacts/` folder:
 
-* `model.pkl` – Trained ML model (regressor)
-* `preprocessor.pkl` – Transformer object (e.g., OneHotEncoder + Scaler)
+- `model.pkl` – Trained ML model (regressor)
+- `preprocessor.pkl` – Transformer object (e.g., OneHotEncoder + Scaler)
 
 > If you don't have these, retrain your model pipeline and save them accordingly.
 
@@ -95,29 +94,27 @@ Visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to use the web app.
 
 After form submission, the app displays the **predicted Math Score** (out of 100) based on the input data.
 
-### 📷 Web Form Example
+### 📷 Web Form Example  
 ![Student Info Form](images/Screenshot%202025-05-11%20182330.png)
 
-### 📷 Form Inputs
+### 📷 Form Inputs  
 ![Form Inputs](images/Screenshot%202025-05-11%20182521.png)
 
-### 📷 Sample Inputs
+### 📷 Sample Inputs  
 ![Sample Inputs](images/Screenshot%202025-05-11%20182735.png)
 
-### 📷 Prediction Result Example
+### 📷 Prediction Result Example  
 ![Predicted Math Score Output](images/Screenshot%202025-05-11%20182758.png)
-
-
 
 ---
 
 ## 📈 Future Improvements
 
-* Add model training pipeline with version control
-* Implement error logging and better exception handling
-* Add Dockerfile for containerization
-* Connect with a database to store predictions
-* Deploy on cloud (Heroku, AWS, or Render)
+- Add model training pipeline with version control
+- Implement error logging and better exception handling
+- Add Dockerfile for containerization
+- Connect with a database to store predictions
+- Deploy on cloud (Heroku, AWS, or Render)
 
 ---
 
@@ -130,5 +127,3 @@ This project is released under the [MIT License](https://opensource.org/licenses
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues, fork the repo, and submit pull requests.
-
-```
