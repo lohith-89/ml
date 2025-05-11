@@ -40,7 +40,7 @@ A Flask-based machine learning web application that predicts student math scores
 ```bash
 git clone https://github.com/lohith-89/ml.git
 cd ml
-````
+```
 
 ### 2. Create a Virtual Environment
 
