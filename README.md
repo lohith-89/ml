@@ -95,19 +95,18 @@ Visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to use the web app.
 
 After form submission, the app displays the **predicted Math Score** (out of 100) based on the input data.
 
-
-
 ### 📷 Web Form Example
-![Student Info Form](images\Screenshot 2025-05-11 182330.png)
+![Student Info Form](images/Screenshot%202025-05-11%20182330.png)
 
-### 📷  Form Inputs
-![Form Inputs](images\Screenshot 2025-05-11 182521.png)
+### 📷 Form Inputs
+![Form Inputs](images/Screenshot%202025-05-11%20182521.png)
 
 ### 📷 Sample Inputs
-![Sample Inputs](images\Screenshot 2025-05-11 182735.png)
+![Sample Inputs](images/Screenshot%202025-05-11%20182735.png)
 
 ### 📷 Prediction Result Example
-![Predicted Math Score Output](images\Screenshot 2025-05-11 182758.png)
+![Predicted Math Score Output](images/Screenshot%202025-05-11%20182758.png)
+
 
 
 ---
